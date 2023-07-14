@@ -1,0 +1,22 @@
+package booking.servlet.client.VNpay;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+import java.io.IOException;
+@WebServlet(name = "vnpGate",value = "/vnpGate")
+
+public class VNPAYGate extends HttpServlet {
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+         String amount = req.getParameter("amount");
+
+
+        req.setAttribute("amount", amount);
+        req.getRequestDispatcher("/WEB-INF/views/vnpay_pay.jsp").forward(req,resp);
+    }
+}

@@ -1,0 +1,230 @@
+.route-form {
+  font-size: 20px;
+}
+/* BLog PAgE */
+.sidebar_filter {
+  border: 1px solid #ebf0e5;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.btn-filter {
+  display: inline-block;
+  font-size: 18px;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-filter:hover {
+  background-color: #45a049;
+}
+
+.btn-filter:active {
+  background-color: #3e8e41;
+}
+
+.standard_filter {
+  font-size: 16px;
+}
+
+.standard_filter ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 16px;
+  margin-top: 1rem;
+}
+
+.type_choose {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 8px;
+}
+
+.price_slider {
+  margin-top: 1rem;
+}
+
+.price_slider h6 {
+  margin-bottom: 0.5rem;
+}
+
+.time_start {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.time_field {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* slide range */
+.range-slider {
+  width: 100%;
+}
+
+
+/* Card body   */
+
+.route_detail {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.route_detail:hover {
+  text-decoration: underline;
+}
+
+.route_detail:visited {
+  color: #7aa9d2;
+}
+
+.route_price {
+  color: #ec8f59;
+  font-size: 22px;
+  font-style: bold;
+}
+
+.route_name {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.time_route {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.location {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.rate {
+  display: flex;
+  color: red;
+  font-size: 18px;
+}
+
+.dot {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.dot i {
+  font-size: 2rem;
+  transform: translateY(-6px);
+
+}
+
+.location_depart {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.routeChoose-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.routeChoose-btn:hover {
+  background-color: #45a049;
+}
+
+.routeChoose-btn:active {
+  background-color: #3e8e41;
+}
+
+.car_name {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.image_route img {
+  width: 100%;
+  height: 100%;
+}
+
+.image_route {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 310px;
+}
+
+/* FORM */
+.form_infor {
+  display: flex;
+}
+
+
+/* choose seat */
+.choose_seat {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+
+}
+
+.seats {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.person_infor {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.ticket_infor {
+  display: flex;
+  gap: 2rem;
+  margin-left: 1rem;
+}
+
+/* PROCess */
+
+.process {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.process_infor {
+  display: flex;
+  align-items: center;
+  background: #bdef77;
+  color: white;
+}
+
+.process_step {
+  border: 1px solid #e3733b;
+  padding: 3px 10px;
+  transform: translateX(-15px);
+  color: orange;
+}
